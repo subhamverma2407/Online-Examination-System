@@ -25,20 +25,20 @@ This is a small basic JSP project which will conduct an online examination of st
 
 ## Student Table
 
-- UNAME   VARCHAR2(30)
-- USID    VARCHAR2(30)
-- PASS    VARCHAR2(30)
-- BRANCH  VARCHAR2(20)
-- DOB     VARCHAR2(12)
-- PHNO    NUMBER(12)
-- EMAIL   VARCHAR2(50)
-- STATUS  NUMBER(1)
-- RESULT  NUMBER(3)
+- UNAME                                               VARCHAR2(30)
+- USID                                                VARCHAR2(30)
+- PASS                                                VARCHAR2(30)
+- BRANCH                                              VARCHAR2(20)
+- DOB                                                 VARCHAR2(12)
+- PHNO                                                NUMBER(12)
+- EMAIL                                               VARCHAR2(50)
+- STATUS                                              NUMBER(1)
+- RESULT                                              NUMBER(3)
  
  ## Teacher table
  
 - TNAME                                              VARCHAR2(30)
-- TID                                       NOT NULL VARCHAR2(10)
+- TID                                                VARCHAR2(10)
 - PASS                                               VARCHAR2(30)
 - DOB                                                VARCHAR2(10)
 - PHNO                                               NUMBER(12)
@@ -51,7 +51,7 @@ This is a small basic JSP project which will conduct an online examination of st
  
  ## EXAMQUE(Questions and answers)
  
-- QID                                       NOT NULL NUMBER(2)
+- QID                                                NUMBER(2)
 - QUE                                                VARCHAR2(200)
 - OPT1                                               VARCHAR2(200)
 - OPT2                                               VARCHAR2(200)
@@ -61,4 +61,4 @@ This is a small basic JSP project which will conduct an online examination of st
  
  ## EXAM(For exam status)
 
--EXAMSTATE                                 NOT NULL NUMBER(1)
+-EXAMSTATE                                           NUMBER(1)

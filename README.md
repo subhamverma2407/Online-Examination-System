@@ -25,17 +25,15 @@ This is a small basic JSP project which will conduct an online examination of st
 
 # Student Table
 
- Name                                      Null?    Type
- ----------------------------------------- -------- -------------
- UNAME                                              VARCHAR2(30)
- USID                                      NOT NULL VARCHAR2(30)
- PASS                                               VARCHAR2(30)
- BRANCH                                             VARCHAR2(20)
- DOB                                                VARCHAR2(12)
- PHNO                                               NUMBER(12)
- EMAIL                                              VARCHAR2(50)
- STATUS                                    NOT NULL NUMBER(1)
- RESULT                                             NUMBER(3)
+ UNAME   VARCHAR2(30)
+ USID    VARCHAR2(30)
+ PASS    VARCHAR2(30)
+ BRANCH  VARCHAR2(20)
+ DOB     VARCHAR2(12)
+ PHNO    NUMBER(12)
+ EMAIL   VARCHAR2(50)
+ STATUS  NUMBER(1)
+ RESULT  NUMBER(3)
  
  # Teacher table
   Name                                      Null?    Type

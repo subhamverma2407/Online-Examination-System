@@ -60,5 +60,5 @@ This is a small basic JSP project which will conduct an online examination of st
 - ANS                                                VARCHAR2(200)
  
  ## EXAM(For exam status)
-
--EXAMSTATE                                           NUMBER(1)
+ 
+- EXAMSTATE                                           NUMBER(1)

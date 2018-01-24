@@ -23,47 +23,42 @@ This is a small basic JSP project which will conduct an online examination of st
 
 # Database Schema
 
-# Student Table
+## Student Table
 
- UNAME   VARCHAR2(30)
- USID    VARCHAR2(30)
- PASS    VARCHAR2(30)
- BRANCH  VARCHAR2(20)
- DOB     VARCHAR2(12)
- PHNO    NUMBER(12)
- EMAIL   VARCHAR2(50)
- STATUS  NUMBER(1)
- RESULT  NUMBER(3)
+- UNAME   VARCHAR2(30)
+- USID    VARCHAR2(30)
+- PASS    VARCHAR2(30)
+- BRANCH  VARCHAR2(20)
+- DOB     VARCHAR2(12)
+- PHNO    NUMBER(12)
+- EMAIL   VARCHAR2(50)
+- STATUS  NUMBER(1)
+- RESULT  NUMBER(3)
  
- # Teacher table
-  Name                                      Null?    Type
- ----------------------------------------- -------- ------------
- TNAME                                              VARCHAR2(30)
- TID                                       NOT NULL VARCHAR2(10)
- PASS                                               VARCHAR2(30)
- DOB                                                VARCHAR2(10)
- PHNO                                               NUMBER(12)
- EMAIL                                              VARCHAR2(50)
+ ## Teacher table
  
- # Admin Table
-  Name                                      Null?    Type
- ----------------------------------------- -------- ------------
- AID                                                VARCHAR2(10)
- PASS                                               VARCHAR2(20)
+- TNAME                                              VARCHAR2(30)
+- TID                                       NOT NULL VARCHAR2(10)
+- PASS                                               VARCHAR2(30)
+- DOB                                                VARCHAR2(10)
+- PHNO                                               NUMBER(12)
+- EMAIL                                              VARCHAR2(50)
  
- # EXAMQUE(Questions and answers)
+ ## Admin Table
  
-  Name                                      Null?    Type
- ----------------------------------------- -------- -------------
- QID                                       NOT NULL NUMBER(2)
- QUE                                                VARCHAR2(200)
- OPT1                                               VARCHAR2(200)
- OPT2                                               VARCHAR2(200)
- OPT3                                               VARCHAR2(200)
- OPT4                                               VARCHAR2(200)
- ANS                                                VARCHAR2(200)
+- AID                                                VARCHAR2(10)
+- PASS                                               VARCHAR2(20)
  
- # EXAM(For exam status)
-  Name                                      Null?    Type
- ----------------------------------------- -------- ---------
- EXAMSTATE                                 NOT NULL NUMBER(1)
+ ## EXAMQUE(Questions and answers)
+ 
+- QID                                       NOT NULL NUMBER(2)
+- QUE                                                VARCHAR2(200)
+- OPT1                                               VARCHAR2(200)
+- OPT2                                               VARCHAR2(200)
+- OPT3                                               VARCHAR2(200)
+- OPT4                                               VARCHAR2(200)
+- ANS                                                VARCHAR2(200)
+ 
+ ## EXAM(For exam status)
+
+-EXAMSTATE                                 NOT NULL NUMBER(1)
